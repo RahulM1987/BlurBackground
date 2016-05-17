@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let PicBlur=BlurImageBackground.init(frameR: CGRectMake(0, 40, self.view.bounds.size.width, 320), ImageName: "evoque.jpg")
+        self.view.addSubview(PicBlur)
+        
     }
 
     override func didReceiveMemoryWarning() {

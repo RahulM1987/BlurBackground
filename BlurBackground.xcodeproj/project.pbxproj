@@ -14,6 +14,8 @@
 		D4FA0C2D1CEAEB1100576E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FA0C2B1CEAEB1100576E9B /* LaunchScreen.storyboard */; };
 		D4FA0C381CEAEB1100576E9B /* BlurBackgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA0C371CEAEB1100576E9B /* BlurBackgroundTests.swift */; };
 		D4FA0C431CEAEB1100576E9B /* BlurBackgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA0C421CEAEB1100576E9B /* BlurBackgroundUITests.swift */; };
+		D4FA0C511CEAEB3C00576E9B /* BlurImageBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA0C501CEAEB3C00576E9B /* BlurImageBackground.swift */; };
+		D4FA0C531CEAF0B500576E9B /* evoque.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4FA0C521CEAF0B500576E9B /* evoque.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D4FA0C3E1CEAEB1100576E9B /* BlurBackgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurBackgroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FA0C421CEAEB1100576E9B /* BlurBackgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurBackgroundUITests.swift; sourceTree = "<group>"; };
 		D4FA0C441CEAEB1100576E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4FA0C501CEAEB3C00576E9B /* BlurImageBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurImageBackground.swift; sourceTree = "<group>"; };
+		D4FA0C521CEAF0B500576E9B /* evoque.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = evoque.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				D4FA0C221CEAEB1000576E9B /* AppDelegate.swift */,
 				D4FA0C241CEAEB1000576E9B /* ViewController.swift */,
+				D4FA0C501CEAEB3C00576E9B /* BlurImageBackground.swift */,
 				D4FA0C261CEAEB1000576E9B /* Main.storyboard */,
+				D4FA0C521CEAF0B500576E9B /* evoque.jpg */,
 				D4FA0C291CEAEB1100576E9B /* Assets.xcassets */,
 				D4FA0C2B1CEAEB1100576E9B /* LaunchScreen.storyboard */,
 				D4FA0C2E1CEAEB1100576E9B /* Info.plist */,
@@ -231,6 +237,7 @@
 			files = (
 				D4FA0C2D1CEAEB1100576E9B /* LaunchScreen.storyboard in Resources */,
 				D4FA0C2A1CEAEB1100576E9B /* Assets.xcassets in Resources */,
+				D4FA0C531CEAF0B500576E9B /* evoque.jpg in Resources */,
 				D4FA0C281CEAEB1000576E9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4FA0C251CEAEB1000576E9B /* ViewController.swift in Sources */,
+				D4FA0C511CEAEB3C00576E9B /* BlurImageBackground.swift in Sources */,
 				D4FA0C231CEAEB1000576E9B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
